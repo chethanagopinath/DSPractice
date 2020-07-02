@@ -62,7 +62,7 @@ class Stack:
 	def get_stack(self):
 		return self.items
 
-class SortStack():
+class SortStack:
 	def __init__(self, stack_obj):
 		self.r = Stack()
 		self.s = stack_obj
